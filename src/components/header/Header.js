@@ -9,11 +9,11 @@ import './Header.css'
 
 const Header = () => (
   <div className='container'>
-    <HeaderLink src={about} alt='about' />
-    <HeaderLink src={past} alt='past' />
-    <img className='logo' src={logo} alt='logo' />
-    <HeaderLink src={faq} alt='faq' />
-    <HeaderLink src={future} alt='future' />
+    <HeaderLink href='about' src={about} alt='about' />
+    <HeaderLink href='past' src={past} alt='past' />
+    <HeaderLink href='/' src={logo} alt='logo' />
+    <HeaderLink href='faq' src={faq} alt='faq' />
+    <HeaderLink href='future' src={future} alt='future' />
   </div>
 )
 

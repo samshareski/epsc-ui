@@ -10,7 +10,7 @@ class App extends Component {
         <div>
           <Header />
           <hr />
-          <Route path='/' component={Content} />
+          <Route path='/:path?' component={Content} />
         </div>
       </Router>
     )
