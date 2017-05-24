@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+hr {
+  border-top: 2px dotted;
+}
+
 @font-face {
   font-family: 'LgpNaiveLineBlack';
   src: local('LgpNaiveLineBlack'), url(./LgpNaiveLineBlack.otf) format('opentype')
