@@ -1,3 +1,11 @@
-.HeaderLink img {
-    width: 100px;
+.HeaderLink, .HeaderLink:visited, .HeaderLink:hover, .HeaderLink:active {
+    font-size: 1.3rem;
+    font-family: 'LgpNaiveLineBlack';
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border: 0.1em solid black;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    width: 4.8em;
 };
