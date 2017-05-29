@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HeaderLink from './HeaderLink.js'
 import logo from './assets/logo.svg'
 import './Header.css'
 
@@ -9,14 +8,14 @@ const style = {
 }
 
 const Header = () => (
-  <div className='container'>
-    <HeaderLink href='about'>About</HeaderLink>
-    <HeaderLink href='past'>Past</HeaderLink>
+  <div className='header'>
+    <Link className='header__link' to='about'>About</Link>
+    <Link className='header__link' to='past'>Past</Link>
     <Link style={style} to='/'>
       <img src={logo} alt='logo' />
     </Link>
-    <HeaderLink href='faq'>F.A.Q.</HeaderLink>
-    <HeaderLink href='future'>Future</HeaderLink>
+    <Link className='header__link' to='faq'>F.A.Q.</Link>
+    <Link className='header__link' to='future'>Future</Link>
   </div>
 )
 
