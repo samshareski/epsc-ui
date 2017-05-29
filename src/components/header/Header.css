@@ -1,6 +1,18 @@
-.container {
+.header {
     padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+.header__link, .header__link:visited, .header__link:hover, .header__link:active {
+    font-size: 1.3rem;
+    font-family: 'LgpNaiveLineBlack';
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border: 0.1em solid black;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    width: 4.8em;
+};
