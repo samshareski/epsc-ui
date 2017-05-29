@@ -6,10 +6,12 @@ import './Header.css'
 const Header = () => (
   <div className='header'>
     <HomeLink to='/' />
-    <Link className='header__link' to='about'>About</Link>
-    <Link className='header__link' to='past'>Past</Link>
-    <Link className='header__link' to='faq'>F.A.Q.</Link>
-    <Link className='header__link' to='future'>Future</Link>
+    <div className='header__links'>
+      <Link className='header__link' to='about'>About</Link>
+      <Link className='header__link' to='past'>Past</Link>
+      <Link className='header__link' to='faq'>F.A.Q.</Link>
+      <Link className='header__link' to='future'>Future</Link>
+    </div>
   </div>
 )
 

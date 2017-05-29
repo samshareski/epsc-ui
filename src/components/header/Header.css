@@ -1,7 +1,13 @@
 .header {
     padding-top: 10px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
+}
+
+.header__links {
+    justify-self: stretch;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -15,4 +21,4 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     width: 4.8em;
-};
+}

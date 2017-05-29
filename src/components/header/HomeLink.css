@@ -1,4 +1,5 @@
 .header__home-link, .header__home-link:visited, .header__home-link:hover, .header__home-link:active {
+    justify-self: start;
     display: flex;
     align-items: center;
     font-size: 1.3rem;
