@@ -2,7 +2,7 @@
     justify-self: start;
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
+    padding-left: 0.5em;
     text-decoration: none;
 }
 
