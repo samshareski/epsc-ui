@@ -1,12 +1,21 @@
 .header {
-    padding-top: 10px;
-    display: flex;
+    font-size: 1.3rem;
+    padding-top: 0.6em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
+    max-width: 48em;
+    margin: 0 auto;
+}
+
+.header__links {
+    justify-self: stretch;
+    display: flex;
     justify-content: space-around;
+    padding-left: 2em;
 }
 
 .header__link, .header__link:visited, .header__link:hover, .header__link:active {
-    font-size: 1.3rem;
     font-family: 'LgpNaiveLineBlack';
     text-align: center;
     color: black;
@@ -15,4 +24,4 @@
     padding-top: 0.2em;
     padding-bottom: 0.2em;
     width: 4.8em;
-};
+}
