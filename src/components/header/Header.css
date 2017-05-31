@@ -16,7 +16,7 @@
 }
 
 .header__link, .header__link:visited, .header__link:hover, .header__link:active {
-    font-family: 'LgpNaiveLineBlack';
+    font-family: 'NaiveLineBlack';
     text-align: center;
     color: black;
     text-decoration: none;
