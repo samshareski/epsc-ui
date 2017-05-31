@@ -1,3 +1,33 @@
+.cta {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 .cta-title {
     font-family: 'NaiveLineBlack';
+    font-size: 2em;
+    font-weight: inherit;
+}
+
+.cta-body {
+    font-family: 'PontiacRegular';
+    font-size: 1em;
+}
+
+.cta-table {
+    display: block;
+    margin: 0 auto 2em;
+    max-width: calc(100em / 3);
+}
+
+.cta-button {
+    display: block;
+    margin: auto;
+    font-family: 'NaiveLineBlack';
+    font-size: 1.25em;
+    color: white;
+    background-color: #ff1d25;
+    text-decoration: none;
+    padding: 0.2em;
+    width: 10em;
 }
