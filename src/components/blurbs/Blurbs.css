@@ -1,0 +1,8 @@
+.blurbs {
+    text-align: center;
+}
+
+.blurbs__box {
+    display: flex;
+    flex-wrap: wrap;
+}

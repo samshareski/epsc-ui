@@ -5,6 +5,8 @@ body {
   font-weight: 200;
 }
 
-hr {
-  border-top: 2px dotted;
+.title {
+    font-family: 'NaiveLineBlack';
+    font-size: 3rem;
+    font-weight: inherit;
 }

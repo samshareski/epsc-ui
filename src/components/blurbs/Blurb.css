@@ -1,0 +1,30 @@
+.blurb {
+    width: 15em;
+    margin: 0 auto;
+}
+
+.blurb__image {
+    height: 4em;
+}
+
+.blurb__name {
+    font-family: 'NaiveLineBlack';
+    font-size: 2em;
+    margin: 0;
+}
+
+.blurb__box {
+    display: grid;
+    align-items: center;
+    height: 15em;
+    text-align: center;
+    vertical-align: middle;
+    border: 0.1em solid black;
+    background-color: white;
+}
+
+.blurb__blurb {
+    font-family: 'PontiacRegular';
+    font-size: 1.5em;
+    margin: 0;
+}
