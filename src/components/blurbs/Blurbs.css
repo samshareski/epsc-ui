@@ -5,4 +5,12 @@
 .blurbs__box {
     display: flex;
     flex-wrap: wrap;
+    max-width: 57em;
+    margin: 0 auto;
+}
+
+.blurbs__background {
+    height: 15em;
+    margin-top: -14em;
+    background-image: url('./assets/green-table-cloth.svg');
 }

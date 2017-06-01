@@ -31,6 +31,7 @@ const Blurbs = () => (
     <div className='blurbs__box'>
       {blurbs.map(blurb => <Blurb {...blurb} />)}
     </div>
+    <div className='blurbs__background' />
   </div>
 )
 
