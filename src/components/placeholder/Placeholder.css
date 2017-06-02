@@ -1,4 +1,7 @@
-.Content h1 {
+.placeholder {
     text-align: center;
+}
+
+.placeholder-title {
     font-family: 'NaiveLineBlack';
 }
