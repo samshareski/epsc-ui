@@ -29,7 +29,7 @@ const Blurbs = () => (
   <div className='blurbs'>
     <h1 className='title'>What are people saying?</h1>
     <div className='blurbs__box'>
-      {blurbs.map(blurb => <Blurb {...blurb} />)}
+      {blurbs.map((blurb, i) => <Blurb key={i} {...blurb} />)}
     </div>
     <div className='blurbs__background' />
   </div>
