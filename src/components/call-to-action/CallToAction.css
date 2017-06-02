@@ -6,6 +6,10 @@
 .cta-body {
     font-family: 'PontiacRegular';
     font-size: 1em;
+    white-space: pre-wrap;
+    /*width: 25em;
+    margin-left: auto;
+    margin-right: auto;*/
 }
 
 .cta-table {
