@@ -1,5 +1,6 @@
 import React from 'react'
 import CallToAction from '../call-to-action/CallToAction.js'
+import MenuPreview from '../menu-preview/MenuPreview.js'
 import Divider from '../divider/Divider.js'
 import table from './assets/yellow-table.svg'
 
@@ -14,6 +15,8 @@ const cta = {
 const Future = () => (
   <div>
     <CallToAction {...cta} />
+    <Divider />
+    <MenuPreview />
     <Divider />
   </div>
 )

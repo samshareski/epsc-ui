@@ -9,4 +9,5 @@ body {
     font-family: 'NaiveLineBlack';
     font-size: 3rem;
     font-weight: inherit;
+    white-space: pre-line;
 }
