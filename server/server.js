@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const compression = require('compression')
+const morgan = require('morgan')
 const path = require('path')
 
 require('ignore-styles')
@@ -13,6 +14,8 @@ const universalLoader = require('./universal')
 
 app.use(compression())
 
+app.use(morgan('combined'))
+
 app.use(
   '/static',
   express.static(path.join(__dirname, '..', 'build', 'static'))
@@ -24,6 +27,8 @@ app.use(
 
 app.use('*', universalLoader)
 
-app.listen(3000, () => {
-  console.log('App listening on port 3000')
+const port = process.env.PORT || 3000
+
+app.listen(port, () => {
+  console.log('App listening on port ' + port)
 })
