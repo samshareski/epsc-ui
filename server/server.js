@@ -25,7 +25,7 @@ app.use(
   express.static(path.join(__dirname, '..', 'build', 'assets'))
 )
 
-app.use('*', universalLoader)
+app.use('/', universalLoader)
 
 const port = process.env.PORT || 3000
 
