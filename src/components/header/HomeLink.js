@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from './assets/logo.svg'
 import './HomeLink.css'
 
+const logo = '/assets/logo.svg'
 const title = 'Exceptional Persons\nSupper Club'
 
 const HomeLink = ({ to }) => (

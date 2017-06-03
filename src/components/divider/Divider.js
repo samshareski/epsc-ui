@@ -1,6 +1,7 @@
 import React from 'react'
-import divider from './divider.svg'
 import './Divider.css'
+
+const divider = '/assets/divider.svg'
 
 const Divider = () => (
   <div className='divider'>

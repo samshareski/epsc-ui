@@ -1,24 +1,21 @@
 import React from 'react'
-import meg from './assets/meg.svg'
-import amymitch from './assets/amymitch.svg'
-import gloria from './assets/gloria.svg'
 import Blurb from './Blurb.js'
 import './Blurbs.css'
 
 const megBlurb = {
-  face: meg,
+  face: '/assets/meg.svg',
   name: 'Meg',
   blurb: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 }
 
 const amyMitchBlurb = {
-  face: amymitch,
+  face: '/assets/amymitch.svg',
   name: 'Amy & Mitch',
   blurb: 'Sed eu volutpat augue. Curabitur gravida ultricies turpis, vitae scelerisque tortor interdum nec.'
 }
 
 const gloriaBlurb = {
-  face: gloria,
+  face: '/assets/gloria.svg',
   name: 'Gloria',
   blurb: 'Aliquam lectus elit, porttitor nec quam nec, condimentum tincidunt ipsum.'
 }

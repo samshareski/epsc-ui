@@ -1,9 +1,9 @@
 import React from 'react'
-import frameLeft from './assets/frame-left.svg'
-import frameRight from './assets/frame-right.svg'
-import borderBottom from './assets/border-bottom.svg'
 import './MenuPreview.css'
 
+const frameLeft = '/assets/frame-left.svg'
+const frameRight = '/assets/frame-right.svg'
+const borderBottom = '/assets/border-bottom.svg'
 const title = "Here's a taste of\nwhat's to come"
 const menuItems = [
   'Red and White Sangria',
