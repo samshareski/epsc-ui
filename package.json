@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "compression": "^1.6.2",
     "express": "^4.15.3",
     "ignore-styles": "^5.0.1",
     "react": "^15.5.4",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "start:server": "NODE_ENV=development nodemon server/index.js",
+    "start:server": "NODE_ENV=development nodemon server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
