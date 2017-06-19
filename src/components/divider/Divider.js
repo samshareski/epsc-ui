@@ -1,5 +1,4 @@
 import React from 'react'
-import divider from './divider.svg'
 import './Divider.css'
 
 const Divider = () => (
