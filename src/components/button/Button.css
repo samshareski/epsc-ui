@@ -1,0 +1,13 @@
+.button {
+    margin: auto;
+    font-family: 'NaiveLineBlack';
+    font-size: 1.25em;
+    color: white;
+    background-color: #ff1d25;
+    text-decoration: none;
+    padding: 0.2em 1em;
+}
+
+.button--yellow {
+    background-color: #ff931e;
+}
