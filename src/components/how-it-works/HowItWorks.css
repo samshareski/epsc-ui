@@ -1,18 +1,18 @@
 .how-it-works {
-    text-align: center;
+  text-align: center;
 }
 
 .how-it-works__box {
-    padding-top: 1.5em;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 57em;
-    margin: 0 auto;
+  padding-top: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 57em;
+  margin: 0 auto;
 }
 
 .how-it-works__p {
-    padding-top: 2em;
-    font-family: 'PontiacRegular';
-    font-size: 1.5em;
+  padding-top: 2em;
+  font-family: 'PontiacRegular';
+  font-size: 1.5em;
 }

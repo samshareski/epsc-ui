@@ -11,20 +11,23 @@ const menuItems = [
   'Lemon-Hibiscus Ice Cream'
 ]
 
-const MenuPreview = () => (
-  <div className='menu-preview'>
-    <h1 className='title'>{title}</h1>
-    <div className='menu'>
-      <img className='menu__frame' src={frameLeft} alt='Left Frame' />
-      <div className='menu__card'>
-        {menuItems.map((item, i) => (
-          <div className='menu__item' key={i}>{item}</div>
-        ))}
+const MenuPreview = () =>
+  <div className="menu-preview">
+    <h1 className="title">
+      {title}
+    </h1>
+    <div className="menu">
+      <img className="menu__frame" src={frameLeft} alt="Left Frame" />
+      <div className="menu__card">
+        {menuItems.map((item, i) =>
+          <div className="menu__item" key={i}>
+            {item}
+          </div>
+        )}
       </div>
-      <img className='menu__frame' src={frameRight} alt='Right frame' />
+      <img className="menu__frame" src={frameRight} alt="Right frame" />
     </div>
-    <img className='menu__bottom' src={borderBottom} alt='Border bottom' />
+    <img className="menu__bottom" src={borderBottom} alt="Border bottom" />
   </div>
-)
 
 export default MenuPreview

@@ -14,7 +14,7 @@ const cta = {
   linkTo: 'future'
 }
 
-const Home = () => (
+const Home = () =>
   <div>
     <CallToAction {...cta} />
     <Divider />
@@ -25,6 +25,5 @@ const Home = () => (
     <HowItWorks />
     <Divider />
   </div>
-)
 
 export default Home

@@ -13,15 +13,20 @@ const text3 =
 
 const texts = [text1, text2, text3]
 
-const HowItWorks = () => (
-  <div className='how-it-works'>
-    <h1 className='title'>How Does It Work?</h1>
-    <div className='how-it-works__box'>
-      {texts.map((text, i) => <SwatchBox key={i}>{text}</SwatchBox>)}
+const HowItWorks = () =>
+  <div className="how-it-works">
+    <h1 className="title">How Does It Work?</h1>
+    <div className="how-it-works__box">
+      {texts.map((text, i) =>
+        <SwatchBox key={i}>
+          {text}
+        </SwatchBox>
+      )}
     </div>
-    <p className='how-it-works__p'>Still have questions?</p>
-    <Button className='button--yellow' to='/faq'>Read the FAQ</Button>
+    <p className="how-it-works__p">Still have questions?</p>
+    <Button className="button--yellow" to="/faq">
+      Read the FAQ
+    </Button>
   </div>
-)
 
 export default HowItWorks

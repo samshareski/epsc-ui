@@ -1,50 +1,50 @@
 .about {
-    text-align: center;
-    max-width: 57em;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 57em;
+  margin: 0 auto;
 }
 
 .about-body {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-logo__background {
-    position: relative;
-    overflow: hidden;
-    z-index: -1;
-    transform: rotate(2deg);
-    height: 13em;
-    width: 13em;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+  transform: rotate(2deg);
+  height: 13em;
+  width: 13em;
 }
 
 .about-logo__background::before {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    transform: rotate(-15deg);
-    background-image: url('./assets/blue-table-cloth.svg');
-    background-size: 7em;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  transform: rotate(-15deg);
+  background-image: url('./assets/blue-table-cloth.svg');
+  background-size: 7em;
 }
 
 .about-logo__logo {
-    height: 12.9em;
+  height: 12.9em;
 }
 
 .about-logo {
-    flex: 2;
-    padding-right: 3em;
+  flex: 2;
+  padding-right: 3em;
 }
 
 .about-blurb {
-    flex: 5;
-    font-family: 'PontiacRegular';
-    font-size: 1.5em;
-    text-align: left;
+  flex: 5;
+  font-family: 'PontiacRegular';
+  font-size: 1.5em;
+  text-align: left;
 }
