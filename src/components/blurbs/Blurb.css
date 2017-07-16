@@ -1,14 +1,14 @@
 .blurb {
-    width: 15em;
-    margin: 0 auto;
+  width: 15em;
+  margin: 0 auto;
 }
 
 .blurb__image {
-    height: 4em;
+  height: 4em;
 }
 
 .blurb__name {
-    font-family: 'NaiveLineBlack';
-    font-size: 2em;
-    margin: 0;
+  font-family: 'NaiveLineBlack';
+  font-size: 2em;
+  margin: 0;
 }

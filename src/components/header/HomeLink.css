@@ -1,17 +1,20 @@
-.header__home-link, .header__home-link:visited, .header__home-link:hover, .header__home-link:active {
-    justify-self: start;
-    display: flex;
-    align-items: center;
-    padding-left: 0.5em;
-    text-decoration: none;
+.header__home-link,
+.header__home-link:visited,
+.header__home-link:hover,
+.header__home-link:active {
+  justify-self: start;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5em;
+  text-decoration: none;
 }
 
 .header__home-logo {
-    width: 4em;
-    padding-right: 0.2em;
+  width: 4em;
+  padding-right: 0.2em;
 }
 
 .header__home-title {
-    font-family: 'NaiveLineBlack';
-    color: black;
+  font-family: 'NaiveLineBlack';
+  color: black;
 }

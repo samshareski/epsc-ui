@@ -1,10 +1,10 @@
 .blurbs {
-    text-align: center;
+  text-align: center;
 }
 
 .blurbs__box {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 57em;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 57em;
+  margin: 0 auto;
 }

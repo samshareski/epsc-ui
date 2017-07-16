@@ -6,16 +6,15 @@ import Home from '../home/Home.js'
 import Future from '../future/Future.js'
 import Placeholder from '../placeholder/Placeholder.js'
 
-const Content = () => (
+const Content = () =>
   <div>
     <Header />
     <Divider />
     <Switch>
-      <Route exact path='/' component={Home} />
-      <Route path='/future' component={Future} />
-      <Route path='/:path' component={Placeholder} />
+      <Route exact path="/" component={Home} />
+      <Route path="/future" component={Future} />
+      <Route path="/:path" component={Placeholder} />
     </Switch>
   </div>
-)
 
 export default Content
